@@ -1,0 +1,248 @@
+/* Global parameters */
+
+
+body {
+    background-color: blanchedalmond;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#myBtn {
+  
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+
+/* Header section */
+
+.header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 5px 10px;
+        border: 2px solid black;
+}
+
+.nav ul li {
+    margin: 20px;
+}
+
+.socials {
+   justify-content: flex-end;
+}
+
+.links {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+   
+    
+}
+
+.links a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    margin: auto;
+    color: #2F2E30;
+   
+}
+.links a:hover,
+.links a:focus {
+    opacity: 0.7;
+}
+
+.links a:active,
+.links a:visited {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 150px;
+    height: 130px;
+    border: 2px solid white;
+    box-shadow: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #2F2E30;
+    color: blanchedalmond;
+  }
+
+  .fa-google {
+    background: #2F2E30;
+    color: blanchedalmond;
+  }
+  
+  .fa-linkedin {
+    background: #2F2E30;
+    color: blanchedalmond;
+  }
+
+  .fa-github-square {
+    background: #2F2E30;
+    color: blanchedalmond;
+  }
+
+  /* Main section */
+
+  .about-h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 5rem;
+    margin-left: 50px;
+  }
+
+  .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    max-width: 800px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  
+  section .rokas {
+    margin: 50px;
+    box-shadow: 10px 10px;
+    margin-left: 100px;
+    border: 2px solid black;
+  }
+
+  .exp-h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    height: 140px;
+    width: 120px;
+    text-align: right;
+  }
+
+  svg {
+    width: 100px;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .exp-tag {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .svg-wrapper {
+    margin: 25px;
+    box-shadow: 5px 10px;
+    border: 2px solid black;
+    width: 120px;
+    height: 210px;
+  }
+
+  .svg-wrapper:hover {
+    box-shadow: none;
+  }
+
+  #level .text {
+    text-align: right;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+
+  #level {
+    max-height: 210px;
+    max-width: 120px;
+  }
+
+
+/* Portfolio section */
+
+  .portfolio {
+    margin-top: 100px;
+  }
+
+  .projects-wrapper {
+    border: 2px solid black;
+    max-width: 1440px;
+    display: flex;
+    margin: 10px;
+    margin-bottom: 40px;
+    box-shadow: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .project-container {
+    width: 400px;
+    height: 380px;
+    border: 2px solid black;
+    margin: 30px;
+    box-shadow: 5px 10px;
+  }
+
+  .card-title,
+  .card-text,
+  .text-center {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+  }
+
+  .btn {
+    border: 1px solid black;
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    background: none;
+    border: 2px solid;
+  }
+
+  .btn a {
+    color: black;
+    padding: 10px;
+  }
+
+  .btn:hover {
+    box-shadow: 2px 5px;
+  }
+
+  
